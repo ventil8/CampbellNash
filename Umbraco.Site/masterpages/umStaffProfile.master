@@ -1,0 +1,15 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/umbMaster.master" AutoEventWireup="true" %>
+<asp:content contentplaceholderid="cp_content" runat="server">
+<div class="row bodyTextUpper">
+        
+        <div class="twelvecol last">
+			<a href="./" class="btnGo">// Back</a>
+			<umbraco:Macro Alias="StaffSocialBar" runat="server"></umbraco:Macro>
+			
+        </div>
+
+
+</div>
+
+
+</asp:content>

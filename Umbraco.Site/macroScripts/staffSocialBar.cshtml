@@ -1,0 +1,37 @@
+﻿@using System.Linq
+@using System.Xml.Linq
+@using Umbraco.Web.Models
+@using umbraco.MacroEngines;
+@{
+    Layout = null;
+
+    var currentPage = @Model;
+    
+    <div>
+    @if (currentPage.HasValue("staffImage"))
+    {
+        <img src="@currentPage.GetPropertyValue("staffImage")" alt="@currentPage.GetPropertyValue("staffName")" Title="@currentPage.GetPropertyValue("staffName")" width="200" class="staffImage" />
+   }</div>
+	  <h2>@currentPage.GetPropertyValue("staffName"), @currentPage.GetPropertyValue("staffPosition")</h2>
+    <p>@Html.Raw(currentPage.GetPropertyValue("staffBio"))</p>
+	<h5>Connect with @currentPage.GetProperty("staffName")</h5>
+    <div>
+  		@if (currentPage.HasValue("staffemail"))
+							{
+								<h6><span>Email: </span><a href="mailto:@currentPage.GetPropertyValue("staffemail")" target="_blank">@currentPage.GetPropertyValue("staffemail")</a></h6>
+							} 
+        @if (currentPage.HasValue("staffDirectDial"))
+							{
+								<h6><span>Direct Dial: </span>@currentPage.GetPropertyValue("staffDirectDial")</h6>
+							} 
+        @if (currentPage.HasValue("staffLinkedIn"))
+							{
+								<h6><span>Linked In: </span><a href="http://www.linkedin.com/in/@currentPage.GetPropertyValue("staffLinkedIn")" target="_blank">@currentPage.GetPropertyValue("staffLinkedIn")</a></h6>
+							} 
+        @if (currentPage.HasValue("staffTwitter"))
+							{
+								<h6><span>Twitter: </span><a href="https://twitter.com/@currentPage.GetPropertyValue("staffTwitter")" target="_blank">@currentPage.GetPropertyValue("staffTwitter")</a></h6>
+							} 
+		</div>
+
+}

@@ -1,0 +1,13 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+@using DigibizAdvancedMediaPicker;
+
+@{  
+    
+    
+    //DAMP Classic
+    dynamic media = Model.MediaById(Model.AncestorOrSelf().footerLogo);
+
+    <img src="@media.umbracoFile" alt="@media.nodeName" height="40px"/>
+    
+    
+}

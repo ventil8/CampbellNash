@@ -1,0 +1,38 @@
+﻿@using System.Linq
+@using System.Xml.Linq
+@using umbraco.MacroEngines
+@using uBlogsy.Common.Extensions
+@using uBlogsy.Common.Helpers
+@using uBlogsy.BusinessLogic
+@{
+    const int ITEMS_PER_PAGE = 20; // for testing
+    
+    // get item count
+    int count = int.Parse(@Parameter.ItemCount);
+
+    IEnumerable<DynamicNode> nodes;
+    
+	//var posts = PostService.Instance.GetPosts(Model.Id);
+    //We want to display the posts on home page we need to tell the script which ID is the landing page
+    var posts = PostService.Instance.GetPosts(1242);
+	nodes = ((IEnumerable<DynamicNode>)posts).Take(count);
+        
+        
+        <h3>Latest from the blog</h3>
+            <ul>
+                @foreach (DynamicNode n in nodes)
+                {
+                    <li>
+                        <h4><a href="@n.Url" title="@n.GetProperty("uBlogsyContentTitle").Value">
+                            <span>@n.GetProperty("uBlogsyContentTitle").Value</span><br />
+                        </a></h4>
+						<p>@n.GetProperty("uBlogsyContentSummary").Value</p>
+                       <small>@n.GetProperty("uBlogsyPostDate").Value.FormatDateTimeOrdinal("d MMMM yyyy")</small>
+                    </li>
+                }
+            </ul>
+       
+    
+    
+    
+ }

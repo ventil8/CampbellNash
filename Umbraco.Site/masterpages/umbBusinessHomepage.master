@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/umbMaster.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderId="cp_top" runat="server">
+	<umbraco:Macro Alias="umediaSliderImages" runat="server" />
+ 
+</asp:Content>
+  
+  
+  
+<asp:Content ContentPlaceHolderID="cp_content" runat="server">
+    <div class="row bodyTextUpper">
+          <div class="ninecol">
+			  
+              <umbraco:Item ID="Item2" runat="server" field="bodyText"/>
+          </div>
+		  <div class="threecol last">
+			  <umbraco:Macro Alias="GetTestimonials" runat="server"></umbraco:Macro>
+		  </div>
+      </div>
+      <div class="row bodyTextLower">
+          <div class="fourcol">
+               <umbraco:Macro Alias="GetServicesList" runat="server"></umbraco:Macro>
+               <div class="yammerWrapper">
+                    <h3>Campbell Nash Yammer</h3>
+                    <div id="embedded-feed"></div>
+                </div>
+          </div>
+           <div class="fourcol">
+            <umbraco:Macro ItemCount="5" Alias="UBlogsyShowPostsHomePage" runat="server"></umbraco:Macro>
+          </div>
+           <div class="fourcol last">
+
+               <h3>Business news</h3>
+    <umbraco:Macro ID="Macro3" feedUrl="http://feeds.reuters.com/reuters/technologyNews" numberOfItems="5" excerptLength="120" Alias="umbFeedViewer" runat="server"></umbraco:Macro>
+  
+          </div>
+
+      </div>
+ 
+          
+ 
+ 
+
+</asp:Content>

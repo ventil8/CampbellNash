@@ -1,0 +1,14 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+@using DigibizAdvancedMediaPicker;
+
+@{  
+    
+    
+    //DAMP Classic
+    dynamic Logo1 = Model.MediaById(Model.AncestorOrSelf().associationLogo1);
+	dynamic Logo2 = Model.MediaById(Model.AncestorOrSelf().associationLogo2);
+    <img src="@Logo1.umbracoFile" alt="@Logo1.nodeName" width="100px"/>
+    <img src="@Logo2.umbracoFile" alt="@Logo2.nodeName" width="100px"/>
+		
+    
+}

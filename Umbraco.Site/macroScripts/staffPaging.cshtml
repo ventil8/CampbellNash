@@ -1,0 +1,79 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+@{ 
+    int pageSize; // How many items per page
+    int page; // The page we are viewing
+
+    /* Set up parameters */
+    
+    if (!int.TryParse(Parameter.PageSize, out pageSize))
+    {
+        pageSize = 1;
+    }
+
+    if (!int.TryParse(Request.QueryString["page"], out page))
+    {
+        page = 1;
+    }
+
+    /* This is your basic query to select the nodes you want */
+
+    var nodes = Model.Children.Where("Visible");
+    
+    int totalNodes = nodes.Count();
+    int totalPages = (int)Math.Ceiling((double)totalNodes / (double)pageSize);
+    
+    /* Bounds checking */
+    
+    if (page > totalPages)
+    {
+        page = totalPages;  
+    }
+    else if (page < 1)
+    {
+        page = 1;
+    }
+}
+
+<h2>Found @totalNodes results. Showing Page @page of @totalPages</h2>
+
+
+    @foreach (var item in nodes.Skip((page - 1) * pageSize).Take(pageSize))
+    {
+        
+		<div>
+    @if (item.HasValue("staffImage"))
+    {
+        <img src="@item.GetPropertyValue("staffImage")" alt="@item.GetPropertyValue("staffName")" Title="@item.GetPropertyValue("staffName")" width="200" class="staffImage" />
+   }</div>
+	  <h2>@item.GetPropertyValue("staffName"), @item.GetPropertyValue("staffPosition")</h2>
+    <p>@Html.Raw(item.GetPropertyValue("staffBio"))</p>
+	<h5>Connect with @item.GetProperty("staffName")</h5>
+    <div>
+  		@if (item.HasValue("staffemail"))
+							{
+								<h6><span>Email: </span><a href="mailto:@item.GetPropertyValue("staffemail")" target="_blank">@item.GetPropertyValue("staffemail")</a></h6>
+							} 
+        @if (item.HasValue("staffDirectDial"))
+							{
+								<h6><span>Direct Dial: </span>@item.GetPropertyValue("staffDirectDial")</h6>
+							} 
+        @if (item.HasValue("staffLinkedIn"))
+							{
+								<h6><span>Linked In: </span><a href="http://www.linkedin.com/in/@item.GetPropertyValue("staffLinkedIn")" target="_blank">@item.GetPropertyValue("staffLinkedIn")</a></h6>
+							} 
+        @if (item.HasValue("staffTwitter"))
+							{
+								<h6><span>Twitter: </span><a href="https://twitter.com/@item.GetPropertyValue("staffTwitter")" target="_blank">@item.GetPropertyValue("staffTwitter")</a></h6>
+							} 
+		</div>	
+			
+    }
+
+
+<ul class="paging">
+    @for (int p = 1; p < totalPages + 1; p++)
+    {
+        string selected = (p == page) ? "selected" : String.Empty;
+        <li class="@selected"><a href="?page=@p" title="Go to page @p of results">@p</a></li> 
+    }
+</ul>

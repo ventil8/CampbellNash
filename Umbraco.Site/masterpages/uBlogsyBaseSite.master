@@ -1,0 +1,112 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/umbMaster.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderID="cp_content" runat="server">
+    <!doctype html public "-//w3c//dtd xhtml 1.0 transitional//en" "http://www.w3.org/tr/xhtml1/dtd/xhtml1-transitional.dtd">
+    <html lang="en-GB" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB" dir="ltr">
+    <head>
+        <%--get title for browser--%>
+        <umbraco:Macro ID="Macro1" runat="server" Language="razor" Alias="uBlogsyBrowserTitle" />
+        <%--get meta title and description--%>
+        <umbraco:Macro ID="Macro5" runat="server" Alias="uBlogsySeoMeta" />
+        <script src="/scripts/jquery-1.6.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js"></script>
+        
+        <link type="text/css" rel="Stylesheet" media="screen" href="/css/uBlogsy.css" />
+        <asp:ContentPlaceHolder ID="Head" runat="server" />
+    </head>
+    <body>
+        <form id="uBlogsy_main_form" runat="server">
+        <div id="uBlogsy">
+           
+                <div class="row blogHeader">
+                      <div class="twelvecol last">
+                           <div id="uBlogsy_header_container">
+                
+                    <h1>
+                        <%--get site name--%>
+                        <umbraco:Macro runat="server" Language="razor">@{ var landing = uBlogsy.BusinessLogic.DataService.Instance.GetLanding(Model.Id);
+                            <a href="@landing.Url">@landing.uBlogsyContentTitle</a> } </umbraco:Macro>
+                    </h1>
+               
+            </div>
+            <%--top navigation--%>
+           
+
+                      </div>
+                </div>
+				<div class="row">
+					<div class="ninecol">
+						<div id="uBlogsy_left_col">
+							<asp:contentplaceholder id="LeftCol" runat="server" />
+						</div>
+					</div>
+					<div class="threecol last">
+					<div id="uBlogsy_right_col">
+                    <%--search
+                    <umbraco:Macro Alias="uBlogsySearch" runat="server" />
+                    --%>
+
+                    <%--rss link--%>
+                    <umbraco:Macro Alias="uBlogsyShowRSSLink" runat="server" />
+
+
+                    <%--list of authors--%>
+                    <umbraco:Macro Alias="uBlogsyListAuthors" runat="server" />
+
+
+                    <%--list of categories--%>
+                    <umbraco:Macro Alias="uBlogsyListCategories" runat="server" />
+
+
+                    <%--the awesome tag cloud--%>
+                    <umbraco:Macro Alias="uBlogsyListTags" runat="server" ShowCount="0" />
+
+
+                    <%--list of related posts--%>
+                    <umbraco:Macro Alias="uBlogsyListRelatedPosts" ItemCount="5" MatchCount="1"
+                        RelatedAlias="" runat="server" />
+
+
+                    <%--list of latest posts--%>
+                    <umbraco:Macro Alias="uBlogsyListPosts" ItemCount="5" Small="1" runat="server" />
+
+
+                    <%--list of latest comments--%>
+                    <umbraco:Macro Alias="uBlogsyListComments" ItemCount="5" Small="1" runat="server" />
+
+
+                    <%--archive--%>
+                    <umbraco:Macro Alias="uBlogsyListPostArchive" runat="server" />
+
+
+                    <%--alternate archive layout --%>
+                    <%-- <umbraco:Macro Alias="uBlogsyListPostArchive" AltLayout="1" runat="server" />--%>
+
+
+                    <%--list blog roll --%>
+                    <umbraco:Macro Alias="uBlogsyListBlogRoll" runat="server" ItemCount="5" />
+                </div>
+					
+					</div>
+					
+				
+				
+				</div>
+				
+           <div class="row">
+               <div class="twelvecol last">
+            
+                <div class="uBlogsy_footer_text">
+                    <umbraco:Macro ID="Macro13" runat="server" Language="razor">@{ var landing = uBlogsy.BusinessLogic.DataService.Instance.GetLanding(Model.Id);
+                        @Html.Raw(landing.uBlogsyContentFooter) } </umbraco:Macro>
+                    <div>
+                       </div>
+                </div>
+            
+              </div>
+                    </div>
+        </div>
+        </form>
+    </body>
+    </html>
+</asp:Content>

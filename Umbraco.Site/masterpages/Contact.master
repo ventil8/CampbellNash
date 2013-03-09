@@ -1,0 +1,22 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/umbMaster.master" AutoEventWireup="true" %>
+<asp:content contentplaceholderid="cp_content" runat="server">
+<div class="row bodyTextUpper">
+        <div class="fivecol sidemenu">
+            <umbraco:Item field="leftHandSidePanel" runat="server" />
+			<umbraco:Macro Alias="CultivContactForm" runat="server" EnableSsl="true" MailFromName="Campbell Nash" MailFrom="service@campbellnash.com" MailSubject="Campbell Nash Website Enquiry" RedirectUrl="/contact-us/thankyou.aspx"></umbraco:Macro>
+        </div>
+        <div class="sevencol last">
+             <h2 class="title"><span><umbraco:item ID="Item1" runat="server" field="pageName"></umbraco:item></span></h2>
+         
+          
+              <umbraco:item ID="Item2" runat="server" field="bodyText"></umbraco:item>
+			<umbraco:Macro Alias="GoogleMap" runat="server"></umbraco:Macro>
+        
+
+        </div>
+
+
+</div>
+
+
+</asp:content>

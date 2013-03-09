@@ -1,0 +1,210 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/umbraco/masterpages/default.master" AutoEventWireup="true" %>
+<asp:content contentplaceholderid="ContentPlaceHolderDefault" runat="server">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="head" runat="server">
+	<title><umbraco:Item field="pageTitle" useIfEmpty="pageName" runat="server"></umbraco:Item></title>
+	<link rel="shortcut icon" href="/favicon.ico"  type="image/ico" />
+	<link rel="icon" href="/favicon.ico"  type="image/ico" />
+<asp:ContentPlaceHolder Id="HeadContent" runat="server"></asp:ContentPlaceHolder>
+  
+  <!-- META Tag Macro -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+	<meta name="description" content="<umbraco:Item field="metaDescription" recursive="true" runat="server" />"   />
+	<meta name="keywords" content="<umbraco:Item field="metaKeywords" recursive="true" runat="server" />"   />
+   <!--Styles-->
+
+    <link rel="stylesheet" type="text/css" href="/css/custom.css" media="screen"/>
+    <!-- 1140px Grid styles for IE -->
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+
+	<!-- The 1140px Grid - http://cssgrid.net/ -->
+	<link rel="stylesheet" href="/css/1140.css" type="text/css" media="screen" />
+	
+	<!-- Your styles -->
+	<link rel="stylesheet" href="/css/styles.css" type="text/css" media="screen" />
+
+
+  <!--Scrips-->  
+  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <script src="/scripts/responsiveslides.min.js"></script>
+  <script type="text/javascript" src="/scripts/script.js"></script>
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+	<script type="text/javascript" src="/scripts/css3-mediaqueries.js"></script>
+  
+  <script>
+      $(function () {
+          $(".rslides").responsiveSlides({
+              auto: true,
+              pager: true,
+              nav: true,
+              speed: 500
+          });
+		   $(".hpTestimonials").responsiveSlides({
+              auto: true,
+              pager: false,
+              nav: false,
+              speed: 200,
+			   timeout: 12000,
+          });
+      });
+</script>
+     <!-- This is the new yammer embeed code -->
+                   <script data-app-id="iw0WP4oGLVInDt8dUjsQ" src="https://assets.yammer.com/platform/yam.js"></script>
+                     <script>
+                         yam.connect.embedFeed(
+                           {
+                               container: '#embedded-feed',
+                               network: 'iacubed.com',
+                               feedType: 'group',                // can be 'group', 'topic', or 'user'          
+                               feedId: '1222478',                     // feed ID from the instructions above
+                               config: {
+                                   header: false
+                               }
+                           });
+                         yam.connect.actionButton({
+                             container: "#embedded-like",
+                             network: "iacubed.com",
+                             action: "like"
+                         });
+                    </script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37021174-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+    
+    <body>
+		<div id="fb-root"></div>
+<script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=155161734575327";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    <div class="container topheader">
+        <div class="row">
+		    <div class="ninecol">
+			    <div class="utilNav">
+                <umbraco:Macro Alias="umbUtilNavigation" runat="server"></umbraco:Macro>
+                </div>
+		    </div>
+            <div class="threecol last">
+			   <umbraco:Macro Alias="Socialbar" runat="server" recursive="true"></umbraco:Macro>
+		    </div>
+        </div>
+        <div class="row">
+            <div class="sixcol">
+                <div id="logo" style="display:none">
+                    <h1><a href="/"><umbraco:item ID="Item1" runat="server" field="siteName" recursive="true"></umbraco:item></a></h1>
+                </div>
+                <a href="/"><img src="/images/cnLogo_s1.png" alt="<umbraco:Item field="siteName" runat="server" />" title="<umbraco:Item field="siteName" runat="server" />"  /></a>
+            </div>
+            <div class="sixcol last">
+                <div class="searchWrapper">
+                    <form action="/search-campbell-nash.aspx" class="site_search" method="get">
+                        <fieldset class="site_search">
+                            <input type="text" name="search" id="txtSearch" class="searchbox"/>
+                            <input type="submit" value="GO" id="btnSearch" class="btnGo" />
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <div class="row menu">
+            <umbraco:Macro ID="Macro1" Alias="umbTopNavigation" runat="server"></umbraco:Macro>
+        </div>
+        
+    </div>
+    <div class="container carousel">
+        <div class="row">
+                <div class="twelevecol last">
+                    <asp:contentplaceholder id="cp_top" runat="server"></asp:contentplaceholder>
+                </div>
+				
+
+        </div>
+		
+
+    </div>
+    <div class="container mainContent">
+        <div class="row breadcrumb">
+			<div class="twelvecol last">
+				<umbraco:Macro Alias="Breadcrumbs" runat="server"></umbraco:Macro>
+			</div>
+		</div>
+        <asp:contentplaceholder id="cp_content" runat="server"></asp:contentplaceholder>
+		<div class="row social">
+			<div class="twelvecol last">
+				<umbraco:Macro Alias="socialbarshare" runat="server"></umbraco:Macro>
+			</div>
+		</div>
+        
+
+    </div>
+
+    <div class="container footer">
+        <div class="row">
+            <div class="twocol">
+                 <div class="footermenu">
+                    <h4>Navigation</h4>
+                    <umbraco:Macro Alias="FooterNavigation" runat="server"></umbraco:Macro>
+                 </div>  
+            </div>
+             <div class="fourcol">
+                  <h4>Campbell Nash Twitter</h4>
+                   <umbraco:Macro twitterUsername="CampbellNash" noStatus="3" excludeReplies="1" displayNativeRTs="1" displayMaps="0" zoom="" size="" mapType="" Alias="twitterStatus" runat="server"></umbraco:Macro>
+
+            </div>
+             <div class="threecol">
+                    <h4>Contact information</h4>
+                   <umbraco:Item field="companyName" recursive="true" runat="server" /><br />
+                   <umbraco:Item field="companyAddress" recursive="true" runat="server" /><br />
+            
+                    <br />Telephone: <umbraco:Item field="mainTelephone" recursive="true" runat="server" />
+				 <br />Email: <a href="mailto:<umbraco:Item field="mainEmail" recursive="true" runat="server" />"><umbraco:Item field="mainEmail" recursive="true" runat="server" /></a>
+
+            </div>
+             <div class="threecol last">
+               <h4>Partners</h4>
+               <umbraco:Macro Alias="GetAssocLogos" runat="server"></umbraco:Macro>  
+           
+            </div>
+
+        </div>
+
+        <div class="row footer-end">
+			<div class="tencol">
+				<umbraco:Item field="copyright" recursive="true" runat="server" />
+			</div>
+            <div class="twocol last">
+				
+           		<umbraco:Macro Alias="GetFooterLogo" runat="server"></umbraco:Macro>
+            </div>
+
+
+        </div>
+
+    </div>
+   
+
+
+</body>
+</html>
+</asp:content>

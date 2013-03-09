@@ -1,0 +1,19 @@
+﻿@{
+    <h3>Campbell Nash Solutions</h3>
+    
+    var solutionIntro = @Model.AncestorOrSelf(1).DescendantsOrSelf("Solutions").First().bodyText;
+    <p>@solutionIntro</p>
+	<p>Click to view more detail</p>	
+	var myList = new List<umbraco.MacroEngines.DynamicNode>();           
+	foreach (dynamic page in @Model.AncestorOrSelf(1).DescendantsOrSelf().OrderBy("CreateDate desc")) {
+                        if(page.NodeTypeAlias == "Solution" )
+                        {
+                                myList.Add(page);
+                        }
+                }
+        }
+		<ul>
+        @foreach(dynamic page in myList.Take(7)) {
+                <li><a href="@page.Url">@page.Name</a></li>
+        }
+		</ul>

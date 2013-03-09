@@ -1,0 +1,55 @@
+@inherits umbraco.MacroEngines.DynamicNodeContext
+@using DigibizAdvancedMediaPicker;
+
+@{  
+    //DAMP File
+    dynamic file = Model.dampFile.mediaItem.File;
+    
+    <h3 style="margin-top: 20px;">Razor DAMP file sample</h3>
+    <p>Download: <a href="@file.umbracoFile" target="_blank">@file.nodeName</a></p>
+    
+    //DAMP Classic
+    dynamic media = Model.MediaById(Model.dampClassic);
+    
+    <h3 style="margin-top: 20px;">Razor DAMP classic sample</h3>
+    <img src="@media.umbracoFile" alt="@media.nodeName" height="400px"/>
+    
+    <table>
+        <tr>
+            <td style="vertical-align: top; padding-right: 20px;">
+
+                @*DAMP New wide*@
+                <h3 style="margin-top: 20px;">Razor DAMP new wide sample</h3>
+                <ul>
+                    @foreach (dynamic d in Model.dampNewWide)
+                    {
+                        <li>
+                            <img src="@DAMP_Helper.GetImageCropperUrl(d, "wideCrop")" alt="@d.ImageWide.nodeName"/>
+                        </li>
+                    }
+                </ul>
+
+            </td>
+            <td  style="vertical-align: top;">
+
+                @*DAMP New long*@
+                <h3 style="margin-top: 20px;">Razor DAMP new long sample</h3>
+                <ul>
+                    @foreach (dynamic d in Model.dampNewLong)
+                    {
+                        //Get the image (= MediaType ImageLong)
+                        var imageLong = d.ImageLong;
+
+                        //Get the crop (propertyName = longImage)
+                        var crop = imageLong.longImage;
+            
+                        <li>
+                            <img src="@crop.Find("@name", "longCrop").url" alt="@imageLong.nodeName"/>
+                        </li>
+                    }
+                </ul>
+
+            </td>
+        </tr>
+    </table>
+}

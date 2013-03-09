@@ -1,0 +1,18 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/umbMaster.master" AutoEventWireup="true" %>
+<asp:content contentplaceholderid="cp_content" runat="server">
+<div class="row bodyTextUpper">
+        <div class="threecol sidemenu">
+             <umbraco:macro ID="Macro1" alias="umb2ndLevelNavigation" runat="server"></umbraco:macro>
+        </div>
+        <div class="ninecol last">
+			
+			<umbraco:Macro Alias="StaffSocialBar" runat="server"></umbraco:Macro>
+			
+			
+        </div>
+
+
+</div>
+
+
+</asp:content>

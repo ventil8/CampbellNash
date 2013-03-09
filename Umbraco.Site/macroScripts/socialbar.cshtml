@@ -1,0 +1,32 @@
+﻿@using System.Linq
+@using System.Xml.Linq
+@using Umbraco.Web.Models
+@using umbraco.MacroEngines;
+
+@{
+    Layout = null;
+    
+    var currentPage = @Model.AncestorOrSelf(1);
+ 
+      
+	<div class="socialWrapper">
+  		@if (currentPage.HasValue("twitter"))
+							{
+								<a href="https://twitter.com/@currentPage.GetPropertyValue("twitter")" target="_blank"><img alt="Follow us on Twitter" Title="Follow us on Twitter" src="/ImageGen.ashx?image=/images/IconTwitter.png&Constrain=True" /></a>
+							} 
+		@if (currentPage.HasValue("facebook"))
+							{
+								<a href="https://www.facebook.com/@currentPage.GetPropertyValue("facebook")" target="_blank"><img alt="Follow us on Facebook" src="/ImageGen.ashx?image=/images/Iconfb_s1.png&width=25&height=25&Constrain=True" /></a>
+							} 
+		@if (currentPage.HasValue("linkedin"))
+							{
+								<a href="http://uk.linkedin.com/company/@currentPage.GetPropertyValue("linkedin")" target="_blank"><img alt="Connect with us on Linked In" title="Connect with us on Linked In" src="/ImageGen.ashx?image=/images/IconLinkedin_s1.png&width=25&height=25&Constrain=True" /></a>
+							} 
+		@if (currentPage.HasValue("rssFeed"))
+							{
+								<a href="/@currentPage.GetPropertyValue("rssFeed")" target="_blank"><img alt="Follow our RSS feed" title="Follow our RSS feed" src="/ImageGen.ashx?image=/images/IconRss_s1.png&Constrain=True" /></a>
+							} 
+		
+	</div>
+         
+}
