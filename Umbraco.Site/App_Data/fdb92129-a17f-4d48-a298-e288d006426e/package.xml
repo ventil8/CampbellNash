@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+	<files><file><guid>bb4e8dcd-1ae1-4d42-9212-ba6aadad24be.dll</guid><orgPath>/bin</orgPath><orgName>uComponents.Controls.dll</orgName></file><file><guid>e564ec62-7c30-4bd1-ba01-1741e4147921.dll</guid><orgPath>/bin</orgPath><orgName>uComponents.Core.dll</orgName></file><file><guid>97b6402c-5aca-4ddf-81c7-48d250f24647.dll</guid><orgPath>/bin</orgPath><orgName>uComponents.DataTypes.dll</orgName></file><file><guid>044462f9-01c3-4c17-be41-6ae15b11d0ea.dll</guid><orgPath>/bin</orgPath><orgName>uComponents.Installer.dll</orgName></file><file><guid>df01c749-78f2-41a1-af8f-86b490117315.dll</guid><orgPath>/bin</orgPath><orgName>uComponents.Legacy.dll</orgName></file><file><guid>09734d1e-7b21-4067-bc55-89b00f77aba5.dll</guid><orgPath>/bin</orgPath><orgName>uComponents.MacroEngines.dll</orgName></file><file><guid>d52197f4-3257-4292-bbd6-11161c1bdb85.dll</guid><orgPath>/bin</orgPath><orgName>uComponents.Mapping.dll</orgName></file><file><guid>921069cf-f46e-4d08-bf0e-4f6f546825a2.dll</guid><orgPath>/bin</orgPath><orgName>uComponents.NotFoundHandlers.dll</orgName></file><file><guid>cf731c28-6469-4ad6-afe0-90c533d03033.dll</guid><orgPath>/bin</orgPath><orgName>uComponents.UI.dll</orgName></file><file><guid>1f5df080-27bd-45d7-8d13-2aa0081f77a4.dll</guid><orgPath>/bin</orgPath><orgName>uComponents.XsltExtensions.dll</orgName></file><file><guid>c6ec8c06-2ba0-4055-88e2-08e67ca1e14b.ascx</guid><orgPath>/umbraco/plugins/uComponents</orgPath><orgName>uComponentsInstaller.ascx</orgName></file></files>
+	<info>
+		<package>
+			<name>uComponents</name>
+			<version>5.2.0</version>
+			<license url="http://www.opensource.org/licenses/mit-license.php">MIT license</license>
+			<url>http://ucomponents.codeplex.com</url>
+			<requirements>
+				<major>4</major>
+				<minor>8</minor>
+				<patch>0</patch>
+			</requirements>
+		</package>
+		<author>
+			<name>uComponents Team</name>
+			<website>http://ucomponents.org</website>
+		</author>
+		<readme><![CDATA[uComponents is a collaborative project for creating components for Umbraco including data types, XSLT extensions, controls and more.
+
+Containing over 30 data-types, 10 XSLT extension libraries, keyboard short-cuts, drag-n-drop functionality, as well as great developer utilities - uComponents is one of the must-have packages for any Umbraco-powered website!
+
+Full documentation can be found here: http://ucomponents.org
+
+Visit the CodePlex site for full details, documentation, roadmap and source code.
+http://ucomponents.codeplex.com
+]]></readme>
+	</info>
+	<DocumentTypes />
+	<Templates />
+	<Stylesheets />
+	<Macros />
+	<DictionaryItems />
+	<Languages />
+	<DataTypes />
+	<control>/umbraco/plugins/uComponents/uComponentsInstaller.ascx</control>
+	<Actions>
+		<Action runat="install" undo="true" alias="uComponents_Uninstaller" />
+	</Actions>
+</umbPackage>

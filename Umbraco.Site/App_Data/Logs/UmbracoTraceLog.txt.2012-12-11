@@ -1,0 +1,669 @@
+2012-12-11 11:08:24,912 [7] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application starting
+2012-12-11 11:08:25,049 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2012-12-11 11:08:25,058 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 7ms)
+2012-12-11 11:08:26,133 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 5 (took 1061ms)
+2012-12-11 11:08:26,143 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IDataType, found 80 (took 5ms)
+2012-12-11 11:08:26,147 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IMacroGuiRendering, found 13 (took 4ms)
+2012-12-11 11:08:26,152 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IPackageAction, found 18 (took 4ms)
+2012-12-11 11:08:26,157 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IAction, found 35 (took 4ms)
+2012-12-11 11:08:26,162 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2012-12-11 11:08:26,170 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2012-12-11 11:08:26,293 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2012-12-11 11:08:26,297 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2012-12-11 11:08:26,318 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 15 (took 4ms)
+2012-12-11 11:08:26,464 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 8ms)
+2012-12-11 11:08:26,489 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 5ms)
+2012-12-11 11:08:26,561 [7] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application startup complete (took 1635ms)
+2012-12-11 11:08:27,183 [7] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.XsltExtensionAttribute, found 2 (took 12ms)
+2012-12-11 11:08:27,222 [7] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 3 (took 4ms)
+2012-12-11 11:08:27,453 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 9] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 11:08:28,727 [7] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 15 (took 5ms)
+2012-12-11 11:08:59,423 [7] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 4ms)
+2012-12-11 11:08:59,427 [7] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.interfaces.IAction, found 35 (took 0ms)
+2012-12-11 11:08:59,561 [7] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.interfaces.ITree, found 39 (took 4ms)
+2012-12-11 11:12:09,012 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 24] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 11:14:24,137 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 32] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 11:16:26,077 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 50] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 11:16:53,925 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 50] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 11:21:52,482 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 59] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 11:22:47,598 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 45] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 11:26:31,134 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 36] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 11:28:13,094 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 16] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 11:29:28,546 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 20] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 11:31:13,982 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 16] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 11:32:14,696 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 40] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 11:32:16,552 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 5] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 11:33:10,843 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 37] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 11:34:28,883 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 56] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 11:34:48,310 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 51] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 11:39:18,632 [7] INFO  Umbraco.Web.UmbracoApplication - [Thread 20] Application shutdown. Reason: MaxRecompilationsReached
+2012-12-11 11:39:25,072 [29] INFO  Umbraco.Core.CoreBootManager - [Thread 30] Umbraco application starting
+2012-12-11 11:39:25,102 [29] INFO  Umbraco.Core.PluginManager - [Thread 30] Determining hash of code files on disk
+2012-12-11 11:39:25,112 [29] INFO  Umbraco.Core.PluginManager - [Thread 30] Hash determined (took 8ms)
+2012-12-11 11:39:25,310 [29] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 5 (took 185ms)
+2012-12-11 11:39:25,320 [29] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of umbraco.interfaces.IDataType, found 80 (took 5ms)
+2012-12-11 11:39:25,324 [29] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of umbraco.interfaces.IMacroGuiRendering, found 13 (took 4ms)
+2012-12-11 11:39:25,329 [29] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of umbraco.interfaces.IPackageAction, found 18 (took 4ms)
+2012-12-11 11:39:25,333 [29] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of umbraco.interfaces.IAction, found 35 (took 4ms)
+2012-12-11 11:39:25,339 [29] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2012-12-11 11:39:25,346 [29] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2012-12-11 11:39:25,434 [29] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2012-12-11 11:39:25,439 [29] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2012-12-11 11:39:25,452 [29] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 15 (took 4ms)
+2012-12-11 11:39:25,478 [29] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 11ms)
+2012-12-11 11:39:25,505 [29] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 6ms)
+2012-12-11 11:39:25,682 [29] INFO  Umbraco.Core.CoreBootManager - [Thread 30] Umbraco application startup complete (took 599ms)
+2012-12-11 11:39:36,362 [29] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of umbraco.XsltExtensionAttribute, found 2 (took 12ms)
+2012-12-11 11:39:36,401 [29] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 3 (took 4ms)
+2012-12-11 11:39:36,499 [29] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 33] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 11:39:41,021 [29] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 15 (took 5ms)
+2012-12-11 11:44:12,861 [29] INFO  Umbraco.Core.PluginManager - [Thread 28] Completed resolution of types of umbraco.interfaces.ITree, found 39 (took 4ms)
+2012-12-11 11:44:27,058 [29] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 4ms)
+2012-12-11 11:44:27,824 [29] INFO  Umbraco.Core.PluginManager - [Thread 58] Completed resolution of types of umbraco.interfaces.IAction, found 35 (took 0ms)
+2012-12-11 11:53:37,993 [29] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 33] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 11:54:03,022 [29] INFO  Umbraco.Web.UmbracoApplication - [Thread 40] Application shutdown. Reason: MaxRecompilationsReached
+2012-12-11 11:54:06,339 [39] INFO  Umbraco.Core.CoreBootManager - [Thread 27] Umbraco application starting
+2012-12-11 11:54:06,371 [39] INFO  Umbraco.Core.PluginManager - [Thread 27] Determining hash of code files on disk
+2012-12-11 11:54:06,381 [39] INFO  Umbraco.Core.PluginManager - [Thread 27] Hash determined (took 8ms)
+2012-12-11 11:54:06,594 [39] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 5 (took 197ms)
+2012-12-11 11:54:06,604 [39] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IDataType, found 80 (took 5ms)
+2012-12-11 11:54:06,609 [39] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IMacroGuiRendering, found 13 (took 4ms)
+2012-12-11 11:54:06,614 [39] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IPackageAction, found 18 (took 4ms)
+2012-12-11 11:54:06,618 [39] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IAction, found 35 (took 4ms)
+2012-12-11 11:54:06,624 [39] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2012-12-11 11:54:06,632 [39] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2012-12-11 11:54:06,714 [39] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2012-12-11 11:54:06,719 [39] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2012-12-11 11:54:06,732 [39] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 15 (took 4ms)
+2012-12-11 11:54:06,857 [39] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 8ms)
+2012-12-11 11:54:06,880 [39] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 5ms)
+2012-12-11 11:54:06,929 [39] INFO  Umbraco.Core.CoreBootManager - [Thread 27] Umbraco application startup complete (took 579ms)
+2012-12-11 11:54:08,122 [39] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of umbraco.XsltExtensionAttribute, found 2 (took 12ms)
+2012-12-11 11:54:08,159 [39] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 3 (took 4ms)
+2012-12-11 11:54:08,288 [39] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 15 (took 5ms)
+2012-12-11 11:54:50,133 [39] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of umbraco.interfaces.ITree, found 39 (took 4ms)
+2012-12-11 11:56:52,862 [39] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 4ms)
+2012-12-11 11:56:53,695 [39] INFO  Umbraco.Core.PluginManager - [Thread 35] Completed resolution of types of umbraco.interfaces.IAction, found 35 (took 0ms)
+2012-12-11 12:01:02,897 [39] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 31] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:02:25,882 [39] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 54] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:02:55,388 [39] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 21] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:03:30,467 [39] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 22] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:04:43,628 [39] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 45] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:04:48,528 [39] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 29] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:05:25,645 [39] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 16] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:05:44,738 [39] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 29] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:06:57,513 [39] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 45] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:08:41,848 [39] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 45] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:08:58,346 [39] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 43] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:12:15,042 [39] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 26] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:16:12,312 [39] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 7] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:22:20,878 [39] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 38] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:22:59,578 [39] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 11] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:23:04,075 [39] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 53] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:23:38,542 [39] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 53] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:23:45,518 [39] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 23] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:23:57,090 [39] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 33] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:23:58,256 [39] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 33] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:23:59,865 [39] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 32] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:24:39,698 [39] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 48] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:26:28,081 [39] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 33] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:33:14,929 [39] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 40] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:34:50,379 [39] INFO  Umbraco.Web.UmbracoApplication - [Thread 6] Application shutdown. Reason: MaxRecompilationsReached
+2012-12-11 12:34:53,196 [49] INFO  Umbraco.Core.CoreBootManager - [Thread 27] Umbraco application starting
+2012-12-11 12:34:53,229 [49] INFO  Umbraco.Core.PluginManager - [Thread 27] Determining hash of code files on disk
+2012-12-11 12:34:53,239 [49] INFO  Umbraco.Core.PluginManager - [Thread 27] Hash determined (took 8ms)
+2012-12-11 12:34:53,460 [49] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 5 (took 201ms)
+2012-12-11 12:34:53,470 [49] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IDataType, found 80 (took 5ms)
+2012-12-11 12:34:53,474 [49] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IMacroGuiRendering, found 13 (took 4ms)
+2012-12-11 12:34:53,481 [49] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IPackageAction, found 18 (took 6ms)
+2012-12-11 12:34:53,487 [49] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IAction, found 35 (took 5ms)
+2012-12-11 12:34:53,494 [49] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 6ms)
+2012-12-11 12:34:53,505 [49] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2012-12-11 12:34:53,585 [49] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2012-12-11 12:34:53,590 [49] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2012-12-11 12:34:53,601 [49] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 15 (took 4ms)
+2012-12-11 12:34:53,742 [49] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2012-12-11 12:34:53,766 [49] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 5ms)
+2012-12-11 12:34:53,806 [49] INFO  Umbraco.Core.CoreBootManager - [Thread 27] Umbraco application startup complete (took 591ms)
+2012-12-11 12:34:55,079 [49] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.XsltExtensionAttribute, found 2 (took 13ms)
+2012-12-11 12:34:55,118 [49] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 3 (took 4ms)
+2012-12-11 12:34:55,693 [49] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 6] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:34:57,051 [49] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 15 (took 8ms)
+2012-12-11 12:35:21,243 [49] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of umbraco.interfaces.ITree, found 39 (took 4ms)
+2012-12-11 12:35:39,185 [49] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 42] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:35:52,009 [49] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 42] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:36:41,218 [49] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 7] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:39:46,193 [49] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 55] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:40:14,064 [49] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 14] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:41:55,894 [49] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 14] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:42:31,980 [49] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 4ms)
+2012-12-11 12:42:31,983 [49] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of umbraco.interfaces.IAction, found 35 (took 0ms)
+2012-12-11 12:42:33,281 [49] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 44] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:42:53,296 [49] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 42] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:43:11,761 [49] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 38] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 12:47:44,721 [49] INFO  Umbraco.Web.UmbracoApplication - [Thread 51] Application shutdown. Reason: MaxRecompilationsReached
+2012-12-11 12:47:47,063 [63] INFO  Umbraco.Core.CoreBootManager - [Thread 62] Umbraco application starting
+2012-12-11 12:47:47,094 [63] INFO  Umbraco.Core.PluginManager - [Thread 62] Determining hash of code files on disk
+2012-12-11 12:47:47,103 [63] INFO  Umbraco.Core.PluginManager - [Thread 62] Hash determined (took 7ms)
+2012-12-11 12:47:47,299 [63] INFO  Umbraco.Core.PluginManager - [Thread 62] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 5 (took 182ms)
+2012-12-11 12:47:47,308 [63] INFO  Umbraco.Core.PluginManager - [Thread 62] Completed resolution of types of umbraco.interfaces.IDataType, found 80 (took 5ms)
+2012-12-11 12:47:47,313 [63] INFO  Umbraco.Core.PluginManager - [Thread 62] Completed resolution of types of umbraco.interfaces.IMacroGuiRendering, found 13 (took 4ms)
+2012-12-11 12:47:47,318 [63] INFO  Umbraco.Core.PluginManager - [Thread 62] Completed resolution of types of umbraco.interfaces.IPackageAction, found 18 (took 4ms)
+2012-12-11 12:47:47,323 [63] INFO  Umbraco.Core.PluginManager - [Thread 62] Completed resolution of types of umbraco.interfaces.IAction, found 35 (took 4ms)
+2012-12-11 12:47:47,328 [63] INFO  Umbraco.Core.PluginManager - [Thread 62] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2012-12-11 12:47:47,335 [63] INFO  Umbraco.Core.PluginManager - [Thread 62] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2012-12-11 12:47:47,411 [63] INFO  Umbraco.Core.PluginManager - [Thread 62] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2012-12-11 12:47:47,416 [63] INFO  Umbraco.Core.PluginManager - [Thread 62] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2012-12-11 12:47:47,428 [63] INFO  Umbraco.Core.PluginManager - [Thread 62] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 15 (took 4ms)
+2012-12-11 12:47:47,450 [63] INFO  Umbraco.Core.PluginManager - [Thread 62] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2012-12-11 12:47:47,474 [63] INFO  Umbraco.Core.PluginManager - [Thread 62] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 5ms)
+2012-12-11 12:47:47,635 [63] INFO  Umbraco.Core.CoreBootManager - [Thread 62] Umbraco application startup complete (took 562ms)
+2012-12-11 12:47:48,031 [63] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of umbraco.XsltExtensionAttribute, found 2 (took 12ms)
+2012-12-11 12:47:48,068 [63] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 3 (took 4ms)
+2012-12-11 12:47:49,365 [63] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 15 (took 5ms)
+2012-12-11 12:48:37,950 [63] INFO  Umbraco.Core.PluginManager - [Thread 56] Completed resolution of types of umbraco.interfaces.ITree, found 39 (took 4ms)
+2012-12-11 12:48:37,980 [63] INFO  Umbraco.Core.PluginManager - [Thread 56] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 4ms)
+2012-12-11 12:48:37,985 [63] INFO  Umbraco.Core.PluginManager - [Thread 56] Completed resolution of types of umbraco.interfaces.IAction, found 35 (took 0ms)
+2012-12-11 12:49:05,737 [63] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 37] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 13:55:44,503 [63] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 96] Error executing query UPDATE umbracoUserLogins SET timeout = @timeout WHERE contextId = @contextId
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters)
+ClientConnectionId:077478eb-0b44-417f-9e07-eaebcf9875c5
+2012-12-11 13:57:28,602 [63] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 98] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 14:02:30,014 [63] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 108] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 14:02:50,560 [63] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 116] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 14:04:24,218 [63] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 115] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 14:11:27,941 [63] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 127] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 14:14:56,130 [63] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 100] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 14:15:07,529 [63] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 36] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 14:15:24,739 [63] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 98] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 14:15:40,174 [63] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 96] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 14:16:39,997 [63] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 95] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 14:16:47,751 [63] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 94] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 14:31:12,600 [63] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 132] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 14:31:39,950 [63] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 106] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 14:32:31,274 [63] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 103] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 14:47:01,918 [63] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 122] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 15:20:52,749 [63] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 57] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 15:21:30,887 [63] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 57] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 15:21:46,602 [63] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 57] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 15:22:03,924 [63] INFO  Umbraco.Web.UmbracoApplication - [Thread 100] Application shutdown. Reason: MaxRecompilationsReached
+2012-12-11 15:22:09,412 [36] INFO  Umbraco.Core.CoreBootManager - [Thread 27] Umbraco application starting
+2012-12-11 15:22:09,445 [36] INFO  Umbraco.Core.PluginManager - [Thread 27] Determining hash of code files on disk
+2012-12-11 15:22:09,456 [36] INFO  Umbraco.Core.PluginManager - [Thread 27] Hash determined (took 9ms)
+2012-12-11 15:22:09,656 [36] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 5 (took 187ms)
+2012-12-11 15:22:09,667 [36] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IDataType, found 80 (took 5ms)
+2012-12-11 15:22:09,672 [36] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IMacroGuiRendering, found 13 (took 5ms)
+2012-12-11 15:22:09,677 [36] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IPackageAction, found 18 (took 4ms)
+2012-12-11 15:22:09,682 [36] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IAction, found 35 (took 4ms)
+2012-12-11 15:22:09,687 [36] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2012-12-11 15:22:09,696 [36] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2012-12-11 15:22:09,903 [36] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2012-12-11 15:22:09,908 [36] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2012-12-11 15:22:09,921 [36] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 15 (took 5ms)
+2012-12-11 15:22:10,068 [36] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2012-12-11 15:22:10,094 [36] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 5ms)
+2012-12-11 15:22:10,131 [36] INFO  Umbraco.Core.CoreBootManager - [Thread 27] Umbraco application startup complete (took 708ms)
+2012-12-11 15:22:10,574 [36] INFO  Umbraco.Core.PluginManager - [Thread 57] Completed resolution of types of umbraco.XsltExtensionAttribute, found 2 (took 13ms)
+2012-12-11 15:22:10,612 [36] INFO  Umbraco.Core.PluginManager - [Thread 57] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 3 (took 4ms)
+2012-12-11 15:22:10,713 [36] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 57] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 15:22:12,241 [36] INFO  Umbraco.Core.PluginManager - [Thread 57] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 15 (took 5ms)
+2012-12-11 15:22:22,270 [36] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 96] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 15:22:33,993 [36] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 96] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 15:22:42,707 [36] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 118] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 15:22:49,532 [36] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 119] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 15:23:24,419 [36] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 119] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 15:23:32,767 [36] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 115] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 15:23:46,212 [36] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 111] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 15:24:30,897 [36] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 111] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 15:25:16,934 [36] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 70] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 15:25:22,978 [36] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 111] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 15:28:38,136 [36] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 80] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 15:28:45,249 [36] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 80] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 15:28:52,762 [36] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 80] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 15:29:16,790 [36] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 70] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 15:35:07,159 [36] INFO  Umbraco.Core.PluginManager - [Thread 70] Completed resolution of types of umbraco.interfaces.ITree, found 39 (took 4ms)
+2012-12-11 15:35:08,266 [36] INFO  Umbraco.Core.PluginManager - [Thread 69] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 4ms)
+2012-12-11 15:35:19,838 [36] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 70] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 15:35:23,013 [36] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 44] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 15:35:45,045 [36] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 70] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 15:35:48,959 [36] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 75] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 15:35:56,979 [36] INFO  Umbraco.Web.UmbracoApplication - [Thread 44] Application shutdown. Reason: MaxRecompilationsReached
+2012-12-11 15:35:59,032 [74] INFO  Umbraco.Core.CoreBootManager - [Thread 30] Umbraco application starting
+2012-12-11 15:35:59,064 [74] INFO  Umbraco.Core.PluginManager - [Thread 30] Determining hash of code files on disk
+2012-12-11 15:35:59,074 [74] INFO  Umbraco.Core.PluginManager - [Thread 30] Hash determined (took 8ms)
+2012-12-11 15:35:59,269 [74] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 5 (took 181ms)
+2012-12-11 15:35:59,279 [74] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of umbraco.interfaces.IDataType, found 80 (took 5ms)
+2012-12-11 15:35:59,284 [74] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of umbraco.interfaces.IMacroGuiRendering, found 13 (took 4ms)
+2012-12-11 15:35:59,288 [74] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of umbraco.interfaces.IPackageAction, found 18 (took 4ms)
+2012-12-11 15:35:59,295 [74] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of umbraco.interfaces.IAction, found 35 (took 6ms)
+2012-12-11 15:35:59,300 [74] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2012-12-11 15:35:59,309 [74] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2012-12-11 15:35:59,387 [74] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2012-12-11 15:35:59,392 [74] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2012-12-11 15:35:59,403 [74] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 15 (took 4ms)
+2012-12-11 15:35:59,546 [74] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2012-12-11 15:35:59,570 [74] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 5ms)
+2012-12-11 15:35:59,607 [74] INFO  Umbraco.Core.CoreBootManager - [Thread 30] Umbraco application startup complete (took 564ms)
+2012-12-11 15:36:00,042 [74] INFO  Umbraco.Core.PluginManager - [Thread 71] Completed resolution of types of umbraco.XsltExtensionAttribute, found 2 (took 12ms)
+2012-12-11 15:36:00,114 [74] INFO  Umbraco.Core.PluginManager - [Thread 71] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 3 (took 35ms)
+2012-12-11 15:36:01,507 [74] INFO  Umbraco.Core.PluginManager - [Thread 71] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 15 (took 5ms)
+2012-12-11 15:36:03,735 [74] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 71] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 15:36:54,857 [74] INFO  Umbraco.Core.PluginManager - [Thread 75] Completed resolution of types of umbraco.interfaces.ITree, found 39 (took 4ms)
+2012-12-11 15:36:55,957 [74] INFO  Umbraco.Core.PluginManager - [Thread 76] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 4ms)
+2012-12-11 15:36:55,961 [74] INFO  Umbraco.Core.PluginManager - [Thread 76] Completed resolution of types of umbraco.interfaces.IAction, found 35 (took 0ms)
+2012-12-11 15:37:24,771 [74] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 71] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:80dd0526-ebb2-4870-9fe8-651c9f253f16
+2012-12-11 15:37:25,004 [74] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 71] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:80dd0526-ebb2-4870-9fe8-651c9f253f16
+2012-12-11 15:39:49,266 [74] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 76] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 15:39:49,266 [74] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 76] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 15:40:33,757 [74] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 131] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 15:40:33,757 [74] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 131] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 15:43:08,324 [74] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 91] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 15:43:08,324 [74] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 91] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 15:43:20,328 [74] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 94] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 15:43:20,328 [74] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 94] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 15:47:47,233 [74] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 101] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 15:47:47,233 [74] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 101] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 15:54:47,309 [74] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 78] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 15:54:47,309 [74] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 78] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 15:58:13,293 [74] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 78] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 15:58:13,293 [74] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 78] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 15:58:38,875 [74] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 126] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 15:58:38,875 [74] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 126] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 16:01:27,211 [74] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 101] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 16:01:27,211 [74] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 101] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 16:01:41,273 [74] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 76] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 16:01:41,273 [74] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 76] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 16:02:07,018 [74] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 96] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 16:02:07,018 [74] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 96] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 16:03:04,880 [74] INFO  Umbraco.Web.UmbracoApplication - [Thread 126] Application shutdown. Reason: MaxRecompilationsReached
+2012-12-11 16:03:06,084 [108] INFO  Umbraco.Core.CoreBootManager - [Thread 62] Umbraco application starting
+2012-12-11 16:03:06,115 [108] INFO  Umbraco.Core.PluginManager - [Thread 62] Determining hash of code files on disk
+2012-12-11 16:03:06,123 [108] INFO  Umbraco.Core.PluginManager - [Thread 62] Hash determined (took 7ms)
+2012-12-11 16:03:06,316 [108] INFO  Umbraco.Core.PluginManager - [Thread 62] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 5 (took 179ms)
+2012-12-11 16:03:06,326 [108] INFO  Umbraco.Core.PluginManager - [Thread 62] Completed resolution of types of umbraco.interfaces.IDataType, found 80 (took 5ms)
+2012-12-11 16:03:06,331 [108] INFO  Umbraco.Core.PluginManager - [Thread 62] Completed resolution of types of umbraco.interfaces.IMacroGuiRendering, found 13 (took 5ms)
+2012-12-11 16:03:06,339 [108] INFO  Umbraco.Core.PluginManager - [Thread 62] Completed resolution of types of umbraco.interfaces.IPackageAction, found 18 (took 7ms)
+2012-12-11 16:03:06,345 [108] INFO  Umbraco.Core.PluginManager - [Thread 62] Completed resolution of types of umbraco.interfaces.IAction, found 35 (took 5ms)
+2012-12-11 16:03:06,352 [108] INFO  Umbraco.Core.PluginManager - [Thread 62] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 6ms)
+2012-12-11 16:03:06,362 [108] INFO  Umbraco.Core.PluginManager - [Thread 62] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+2012-12-11 16:03:06,480 [108] INFO  Umbraco.Core.PluginManager - [Thread 62] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2012-12-11 16:03:06,484 [108] INFO  Umbraco.Core.PluginManager - [Thread 62] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2012-12-11 16:03:06,495 [108] INFO  Umbraco.Core.PluginManager - [Thread 62] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 15 (took 4ms)
+2012-12-11 16:03:06,644 [108] INFO  Umbraco.Core.PluginManager - [Thread 62] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2012-12-11 16:03:06,667 [108] INFO  Umbraco.Core.PluginManager - [Thread 62] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 5ms)
+2012-12-11 16:03:06,704 [108] INFO  Umbraco.Core.CoreBootManager - [Thread 62] Umbraco application startup complete (took 610ms)
+2012-12-11 16:03:07,113 [108] INFO  Umbraco.Core.PluginManager - [Thread 76] Completed resolution of types of umbraco.XsltExtensionAttribute, found 2 (took 12ms)
+2012-12-11 16:03:07,140 [108] INFO  Umbraco.Core.PluginManager - [Thread 76] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 3 (took 4ms)
+2012-12-11 16:03:07,249 [108] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 76] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 16:03:07,249 [108] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 76] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 16:03:09,058 [108] INFO  Umbraco.Core.PluginManager - [Thread 76] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 15 (took 5ms)
+2012-12-11 16:04:00,370 [108] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 101] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 16:04:00,370 [108] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 101] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 16:04:38,755 [108] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 117] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 16:04:38,755 [108] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 117] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 16:04:54,234 [108] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 109] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 16:04:54,234 [108] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 109] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 16:06:00,310 [108] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 109] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 16:06:00,311 [108] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 109] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 16:06:10,692 [108] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 119] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 16:06:10,692 [108] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 119] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 16:06:51,424 [108] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 117] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 16:06:51,425 [108] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 117] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 16:13:38,697 [108] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 75] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 16:13:38,697 [108] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 75] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 16:15:29,013 [108] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 74] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 16:15:29,013 [108] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 74] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 16:15:34,268 [108] INFO  Umbraco.Core.PluginManager - [Thread 75] Completed resolution of types of umbraco.interfaces.ITree, found 39 (took 4ms)
+2012-12-11 16:16:54,930 [108] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 100] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 16:16:54,930 [108] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 100] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 16:17:12,474 [108] INFO  Umbraco.Web.UmbracoApplication - [Thread 74] Application shutdown. Reason: MaxRecompilationsReached
+2012-12-11 16:17:13,151 [93] INFO  Umbraco.Core.CoreBootManager - [Thread 27] Umbraco application starting
+2012-12-11 16:17:13,185 [93] INFO  Umbraco.Core.PluginManager - [Thread 27] Determining hash of code files on disk
+2012-12-11 16:17:13,195 [93] INFO  Umbraco.Core.PluginManager - [Thread 27] Hash determined (took 8ms)
+2012-12-11 16:17:13,406 [93] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 5 (took 198ms)
+2012-12-11 16:17:13,417 [93] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IDataType, found 80 (took 5ms)
+2012-12-11 16:17:13,422 [93] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IMacroGuiRendering, found 13 (took 4ms)
+2012-12-11 16:17:13,427 [93] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IPackageAction, found 18 (took 4ms)
+2012-12-11 16:17:13,431 [93] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IAction, found 35 (took 4ms)
+2012-12-11 16:17:13,438 [93] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
+2012-12-11 16:17:13,445 [93] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2012-12-11 16:17:13,523 [93] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2012-12-11 16:17:13,527 [93] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2012-12-11 16:17:13,539 [93] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 15 (took 4ms)
+2012-12-11 16:17:13,666 [93] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2012-12-11 16:17:13,691 [93] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 5ms)
+2012-12-11 16:17:13,747 [93] INFO  Umbraco.Core.CoreBootManager - [Thread 27] Umbraco application startup complete (took 586ms)
+2012-12-11 16:17:15,570 [93] INFO  Umbraco.Core.PluginManager - [Thread 100] Completed resolution of types of umbraco.XsltExtensionAttribute, found 2 (took 13ms)
+2012-12-11 16:17:15,597 [93] INFO  Umbraco.Core.PluginManager - [Thread 100] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 3 (took 4ms)
+2012-12-11 16:17:15,706 [93] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 100] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 16:17:15,706 [93] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 100] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 16:17:17,124 [93] INFO  Umbraco.Core.PluginManager - [Thread 100] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 15 (took 5ms)
+2012-12-11 16:17:23,274 [93] INFO  Umbraco.Core.PluginManager - [Thread 74] Completed resolution of types of umbraco.interfaces.ITree, found 39 (took 4ms)
+2012-12-11 16:17:38,002 [93] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 72] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 16:17:38,002 [93] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 72] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 16:17:56,031 [93] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 121] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 16:17:56,031 [93] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 121] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 16:19:47,386 [93] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 121] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 16:19:47,386 [93] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 121] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 16:20:17,947 [93] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 72] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 16:20:17,948 [93] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 72] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 16:20:30,007 [93] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 100] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 16:20:30,007 [93] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 100] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 16:22:08,642 [93] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 74] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 16:22:08,643 [93] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 74] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 16:23:03,638 [93] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 104] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 16:23:03,638 [93] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 104] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 16:23:14,494 [93] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 100] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 16:23:14,494 [93] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 100] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 16:23:34,611 [93] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 124] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 16:23:34,611 [93] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 124] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 16:46:27,685 [93] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 121] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 16:46:27,685 [93] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 121] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 16:47:38,663 [93] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 104] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 16:47:38,663 [93] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 104] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 16:47:55,644 [93] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 99] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 16:47:55,644 [93] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 99] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 16:48:19,890 [93] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 99] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 16:48:19,890 [93] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 99] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 16:48:31,513 [93] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 72] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 16:48:31,513 [93] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 72] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 16:48:39,584 [93] INFO  Umbraco.Web.UmbracoApplication - [Thread 99] Application shutdown. Reason: MaxRecompilationsReached
+2012-12-11 16:48:42,092 [131] INFO  Umbraco.Core.CoreBootManager - [Thread 27] Umbraco application starting
+2012-12-11 16:48:42,125 [131] INFO  Umbraco.Core.PluginManager - [Thread 27] Determining hash of code files on disk
+2012-12-11 16:48:42,134 [131] INFO  Umbraco.Core.PluginManager - [Thread 27] Hash determined (took 7ms)
+2012-12-11 16:48:42,348 [131] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 5 (took 199ms)
+2012-12-11 16:48:42,358 [131] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IDataType, found 80 (took 5ms)
+2012-12-11 16:48:42,363 [131] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IMacroGuiRendering, found 13 (took 4ms)
+2012-12-11 16:48:42,368 [131] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IPackageAction, found 18 (took 4ms)
+2012-12-11 16:48:42,373 [131] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IAction, found 35 (took 4ms)
+2012-12-11 16:48:42,378 [131] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2012-12-11 16:48:42,386 [131] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2012-12-11 16:48:42,463 [131] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2012-12-11 16:48:42,467 [131] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2012-12-11 16:48:42,479 [131] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 15 (took 4ms)
+2012-12-11 16:48:42,618 [131] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2012-12-11 16:48:42,642 [131] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 5ms)
+2012-12-11 16:48:42,679 [131] INFO  Umbraco.Core.CoreBootManager - [Thread 27] Umbraco application startup complete (took 576ms)
+2012-12-11 16:48:43,112 [131] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of umbraco.XsltExtensionAttribute, found 2 (took 12ms)
+2012-12-11 16:48:43,143 [131] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 3 (took 6ms)
+2012-12-11 16:48:43,268 [131] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 72] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 16:48:43,268 [131] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 72] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 16:48:44,844 [131] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 15 (took 5ms)
+2012-12-11 16:49:19,678 [131] INFO  Umbraco.Core.PluginManager - [Thread 99] Completed resolution of types of umbraco.interfaces.ITree, found 39 (took 4ms)
+2012-12-11 16:52:35,792 [131] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 113] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 16:52:35,792 [131] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 113] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 17:01:03,389 [131] INFO  Umbraco.Core.PluginManager - [Thread 113] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 4ms)
+2012-12-11 17:01:03,394 [131] INFO  Umbraco.Core.PluginManager - [Thread 113] Completed resolution of types of umbraco.interfaces.IAction, found 35 (took 0ms)
+2012-12-11 17:05:28,851 [131] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 82] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 17:05:28,851 [131] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 82] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 17:09:15,954 [131] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 88] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:ab490a97-dc02-4bc6-bb62-455b146199da
+2012-12-11 17:09:15,979 [131] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 88] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:1c63d256-2e94-4cce-add1-73565b7807e0
+2012-12-11 17:10:07,939 [131] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 77] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:ab490a97-dc02-4bc6-bb62-455b146199da
+2012-12-11 17:10:07,961 [131] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 77] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:ab490a97-dc02-4bc6-bb62-455b146199da
+2012-12-11 17:10:32,905 [131] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 36] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:ab490a97-dc02-4bc6-bb62-455b146199da
+2012-12-11 17:10:32,925 [131] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 36] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:ab490a97-dc02-4bc6-bb62-455b146199da
+2012-12-11 17:11:06,801 [131] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 10] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:1c63d256-2e94-4cce-add1-73565b7807e0
+2012-12-11 17:11:06,822 [131] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 10] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:1c63d256-2e94-4cce-add1-73565b7807e0
+2012-12-11 17:16:31,101 [131] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 10] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 17:16:31,101 [131] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 10] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 17:22:03,917 [131] ERROR Umbraco.Web.UmbracoApplication - [Thread 36] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x80004005): Maximum request length exceeded.
+   at System.Web.HttpRequest.GetEntireRawContent()
+   at System.Web.HttpRequest.GetMultipartContent()
+   at System.Web.HttpRequest.FillInFormCollection()
+   at System.Web.HttpRequest.EnsureForm()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_developer_packages_installer_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\753aed3e\58c6e919\App_Web_installer.aspx.5d1c7564.2zwt6y-o.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-12-11 17:22:53,834 [131] ERROR Umbraco.Web.UmbracoApplication - [Thread 10] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x80004005): Maximum request length exceeded.
+   at System.Web.HttpRequest.GetEntireRawContent()
+   at System.Web.HttpRequest.GetMultipartContent()
+   at System.Web.HttpRequest.FillInFormCollection()
+   at System.Web.HttpRequest.EnsureForm()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_developer_packages_installer_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\753aed3e\58c6e919\App_Web_installer.aspx.5d1c7564.2zwt6y-o.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-12-11 17:24:03,032 [131] ERROR Umbraco.Web.UmbracoApplication - [Thread 77] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x80004005): Maximum request length exceeded.
+   at System.Web.HttpRequest.GetEntireRawContent()
+   at System.Web.HttpRequest.GetMultipartContent()
+   at System.Web.HttpRequest.FillInFormCollection()
+   at System.Web.HttpRequest.EnsureForm()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_developer_packages_installer_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\753aed3e\58c6e919\App_Web_installer.aspx.5d1c7564.2zwt6y-o.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-12-11 17:25:13,782 [131] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 84] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 17:25:13,782 [131] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 84] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 17:25:45,669 [131] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 77] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 17:25:45,669 [131] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 77] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 17:33:31,400 [131] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 84] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 17:33:31,400 [131] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 84] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 17:40:27,518 [131] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 84] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 17:40:27,518 [131] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 84] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 17:40:51,349 [131] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 77] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 17:40:51,349 [131] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 77] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 17:40:57,097 [131] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 84] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 17:40:57,097 [131] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 84] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 17:42:02,088 [131] INFO  Umbraco.Web.UmbracoApplication - [Thread 10] Application shutdown. Reason: MaxRecompilationsReached
+2012-12-11 17:42:04,012 [92] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application starting
+2012-12-11 17:42:04,051 [92] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2012-12-11 17:42:04,060 [92] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 8ms)
+2012-12-11 17:42:04,275 [92] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 5 (took 201ms)
+2012-12-11 17:42:04,286 [92] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IDataType, found 80 (took 5ms)
+2012-12-11 17:42:04,291 [92] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IMacroGuiRendering, found 13 (took 4ms)
+2012-12-11 17:42:04,296 [92] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IPackageAction, found 18 (took 4ms)
+2012-12-11 17:42:04,301 [92] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IAction, found 35 (took 4ms)
+2012-12-11 17:42:04,307 [92] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
+2012-12-11 17:42:04,315 [92] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2012-12-11 17:42:04,395 [92] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2012-12-11 17:42:04,400 [92] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2012-12-11 17:42:04,412 [92] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 15 (took 4ms)
+2012-12-11 17:42:04,536 [92] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2012-12-11 17:42:04,562 [92] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 5ms)
+2012-12-11 17:42:04,614 [92] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application startup complete (took 590ms)
+2012-12-11 17:42:05,041 [92] INFO  Umbraco.Core.PluginManager - [Thread 88] Completed resolution of types of umbraco.XsltExtensionAttribute, found 2 (took 12ms)
+2012-12-11 17:42:05,074 [92] INFO  Umbraco.Core.PluginManager - [Thread 88] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 3 (took 4ms)
+2012-12-11 17:42:05,188 [92] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 88] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 17:42:05,189 [92] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 88] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 17:42:06,221 [92] INFO  Umbraco.Core.PluginManager - [Thread 88] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 15 (took 5ms)
+2012-12-11 17:42:43,130 [92] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 71] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-11 17:42:43,130 [92] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 71] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-11 18:03:53,416 [92] INFO  Umbraco.Web.UmbracoApplication - [Thread 99] Application shutdown. Reason: HostingEnvironment

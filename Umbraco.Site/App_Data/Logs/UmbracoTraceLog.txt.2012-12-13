@@ -1,0 +1,1157 @@
+2012-12-13 09:48:48,611 [9] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application starting
+2012-12-13 09:48:48,734 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2012-12-13 09:48:48,744 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 8ms)
+2012-12-13 09:48:51,452 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 5 (took 2839ms)
+2012-12-13 09:48:51,463 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IDataType, found 80 (took 5ms)
+2012-12-13 09:48:51,467 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IMacroGuiRendering, found 13 (took 4ms)
+2012-12-13 09:48:51,472 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IPackageAction, found 18 (took 4ms)
+2012-12-13 09:48:51,476 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IAction, found 35 (took 4ms)
+2012-12-13 09:48:51,481 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2012-12-13 09:48:51,489 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2012-12-13 09:48:51,713 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 6ms)
+2012-12-13 09:48:51,720 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 7ms)
+2012-12-13 09:48:51,784 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 15 (took 5ms)
+2012-12-13 09:48:51,934 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2012-12-13 09:48:51,958 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 5ms)
+2012-12-13 09:48:52,036 [9] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application startup complete (took 3559ms)
+2012-12-13 09:48:54,579 [9] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.XsltExtensionAttribute, found 2 (took 22ms)
+2012-12-13 09:48:54,676 [9] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 3 (took 4ms)
+2012-12-13 09:48:55,318 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 10] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 09:48:55,318 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 10] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 09:48:57,961 [9] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 15 (took 5ms)
+2012-12-13 09:48:58,823 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 10] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 09:48:58,823 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 10] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 09:54:35,210 [9] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 6ms)
+2012-12-13 09:54:35,215 [9] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.interfaces.IAction, found 35 (took 0ms)
+2012-12-13 09:54:35,390 [9] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.interfaces.ITree, found 39 (took 4ms)
+2012-12-13 09:58:09,735 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 31] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:380462aa-1f60-41d8-922b-7678fffc55c3
+2012-12-13 09:58:10,085 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 31] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:380462aa-1f60-41d8-922b-7678fffc55c3
+2012-12-13 10:31:06,271 [9] INFO  Umbraco.Core.PluginManager - [Thread 25] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 5ms)
+2012-12-13 10:31:06,279 [9] INFO  Umbraco.Core.PluginManager - [Thread 25] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 5ms)
+2012-12-13 10:31:06,331 [9] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of umbraco.interfaces.ITree, found 39 (took 0ms)
+2012-12-13 10:31:06,333 [9] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 0ms)
+2012-12-13 11:03:41,205 [9] INFO  Umbraco.Core.PluginManager - [Thread 26] Completed resolution of types of umbraco.interfaces.IAction, found 35 (took 0ms)
+2012-12-13 11:03:43,341 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 27] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 11:03:43,341 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 27] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 11:11:02,407 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 21] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 11:11:02,407 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 21] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 11:16:53,525 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 18] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 11:16:53,525 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 18] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 11:27:15,832 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 27] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 11:27:15,832 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 27] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 11:28:17,250 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 27] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 11:28:17,250 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 27] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 11:29:05,669 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 22] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 11:29:05,669 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 22] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 11:34:13,006 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 22] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 11:34:13,007 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 22] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 11:41:56,419 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 25] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 11:41:56,419 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 25] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 11:42:17,372 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 22] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 11:42:17,372 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 22] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 11:45:56,397 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 25] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:81c058db-5aee-479f-bc67-9fa8adce8fb1
+2012-12-13 11:45:56,584 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 25] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:81c058db-5aee-479f-bc67-9fa8adce8fb1
+2012-12-13 11:45:56,667 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 25] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:81c058db-5aee-479f-bc67-9fa8adce8fb1
+2012-12-13 11:45:56,745 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 25] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:81c058db-5aee-479f-bc67-9fa8adce8fb1
+2012-12-13 11:45:56,807 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 25] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:81c058db-5aee-479f-bc67-9fa8adce8fb1
+2012-12-13 11:45:56,823 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 25] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:81c058db-5aee-479f-bc67-9fa8adce8fb1
+2012-12-13 11:45:56,904 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 25] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:81c058db-5aee-479f-bc67-9fa8adce8fb1
+2012-12-13 11:45:57,058 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 25] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:81c058db-5aee-479f-bc67-9fa8adce8fb1
+2012-12-13 11:46:27,686 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 19] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 11:46:27,686 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 19] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 11:48:32,527 [9] ERROR Umbraco.Web.UmbracoApplication - [Thread 30] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.ArgumentException: No node exists with id '1279'
+   at umbraco.cms.businesslogic.CMSNode.setupNode()
+   at umbraco.cms.businesslogic.web.Document.setupNode()
+   at umbraco.cms.businesslogic.web.Document..ctor(Int32 id)
+   at umbraco.cms.presentation.create.controls.content.Page_Load(Object sender, EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_create_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\753aed3e\58c6e919\App_Web_create.aspx.5f2dec3.oqcc7teh.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-12-13 11:49:01,735 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 19] Error executing query select xml from cmsContentXml where nodeID = 1129
+System.ArgumentException: The query didn't return a value.
+   at umbraco.DataLayer.SqlHelper`1.ExecuteXmlReader(String commandText, P[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteXmlReader(String commandText, IParameter[] parameters)
+2012-12-13 11:49:01,903 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 19] Error executing query select xml from cmsContentXml where nodeID = 1257
+System.ArgumentException: The query didn't return a value.
+   at umbraco.DataLayer.SqlHelper`1.ExecuteXmlReader(String commandText, P[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteXmlReader(String commandText, IParameter[] parameters)
+2012-12-13 11:49:23,843 [9] ERROR Umbraco.Web.UmbracoApplication - [Thread 19] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x80004005): Multiple controls with the same ID 'prop_bodyText' were found. FindControl requires that controls have unique IDs.
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FindControl(String id, Int32 pathOffset)
+   at System.Web.UI.WebControls.BaseValidator.CheckControlValidationProperty(String name, String propertyName)
+   at System.Web.UI.WebControls.BaseValidator.ControlPropertiesValid()
+   at System.Web.UI.WebControls.BaseValidator.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_editcontent_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\753aed3e\58c6e919\App_Web_editcontent.aspx.5f2dec3.wcdwriwq.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-12-13 11:49:51,001 [9] ERROR Umbraco.Web.UmbracoApplication - [Thread 26] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x80004005): Multiple controls with the same ID 'prop_umbracoNaviHide' were found. FindControl requires that controls have unique IDs.
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FindControl(String id, Int32 pathOffset)
+   at System.Web.UI.WebControls.BaseValidator.CheckControlValidationProperty(String name, String propertyName)
+   at System.Web.UI.WebControls.BaseValidator.ControlPropertiesValid()
+   at System.Web.UI.WebControls.BaseValidator.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_editcontent_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\753aed3e\58c6e919\App_Web_editcontent.aspx.5f2dec3.wcdwriwq.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-12-13 12:09:38,993 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 28] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 12:09:38,993 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 28] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 12:10:42,987 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 15] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 12:10:42,987 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 15] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 12:10:58,399 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 19] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 12:10:58,399 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 19] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 12:11:25,789 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 25] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 12:11:25,790 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 25] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 12:13:38,408 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 26] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 12:13:38,408 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 26] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 12:15:27,567 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 14] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:795ceaaa-ffab-4888-916c-415756e2f512
+2012-12-13 12:15:27,575 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 14] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:795ceaaa-ffab-4888-916c-415756e2f512
+2012-12-13 12:15:27,853 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 14] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:795ceaaa-ffab-4888-916c-415756e2f512
+2012-12-13 12:15:28,113 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 14] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:795ceaaa-ffab-4888-916c-415756e2f512
+2012-12-13 12:15:28,230 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 14] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:795ceaaa-ffab-4888-916c-415756e2f512
+2012-12-13 12:15:28,246 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 14] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:795ceaaa-ffab-4888-916c-415756e2f512
+2012-12-13 12:15:28,333 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 14] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:795ceaaa-ffab-4888-916c-415756e2f512
+2012-12-13 12:15:28,428 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 14] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:795ceaaa-ffab-4888-916c-415756e2f512
+2012-12-13 12:15:48,580 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 26] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 12:15:48,580 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 26] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 12:18:22,946 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 6] Error executing query select xml from cmsContentXml where nodeID = 1129
+System.ArgumentException: The query didn't return a value.
+   at umbraco.DataLayer.SqlHelper`1.ExecuteXmlReader(String commandText, P[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteXmlReader(String commandText, IParameter[] parameters)
+2012-12-13 12:18:23,048 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 6] Error executing query select xml from cmsContentXml where nodeID = 1257
+System.ArgumentException: The query didn't return a value.
+   at umbraco.DataLayer.SqlHelper`1.ExecuteXmlReader(String commandText, P[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteXmlReader(String commandText, IParameter[] parameters)
+2012-12-13 12:22:16,575 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 27] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 12:22:16,575 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 27] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 12:28:20,299 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 14] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 12:28:20,299 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 14] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 12:29:26,535 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 28] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 12:29:26,535 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 28] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 12:29:52,609 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 21] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 12:29:52,609 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 21] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 12:30:37,756 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 19] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 12:30:37,756 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 19] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 12:32:30,382 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 6] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 12:32:30,383 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 6] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 12:33:23,376 [9] ERROR Umbraco.Web.UmbracoApplication - [Thread 21] An unhandled exception occurred
+System.Web.HttpParseException (0x80004005): The ID 'Item1' is already used by another control. ---> System.Web.HttpParseException (0x80004005): The ID 'Item1' is already used by another control. ---> System.Web.HttpException (0x80004005): The ID 'Item1' is already used by another control.
+   at System.Web.UI.TemplateParser.ProcessError(String message)
+   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   at System.Web.UI.Page.ApplyMasterPage()
+   at System.Web.UI.Page.PerformPreInit()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\753aed3e\58c6e919\App_Web_default.aspx.cdcab7d2.myac23e-.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-12-13 12:33:45,221 [9] ERROR Umbraco.Web.UmbracoApplication - [Thread 19] An unhandled exception occurred
+System.Web.HttpParseException (0x80004005): The ID 'Item1' is already used by another control. ---> System.Web.HttpParseException (0x80004005): The ID 'Item1' is already used by another control. ---> System.Web.HttpException (0x80004005): The ID 'Item1' is already used by another control.
+   at System.Web.UI.TemplateParser.ProcessError(String message)
+   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   at System.Web.UI.Page.ApplyMasterPage()
+   at System.Web.UI.Page.PerformPreInit()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\753aed3e\58c6e919\App_Web_default.aspx.cdcab7d2.myac23e-.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-12-13 12:33:45,981 [9] ERROR Umbraco.Web.UmbracoApplication - [Thread 6] An unhandled exception occurred
+System.Web.HttpParseException (0x80004005): The ID 'Item1' is already used by another control. ---> System.Web.HttpParseException (0x80004005): The ID 'Item1' is already used by another control. ---> System.Web.HttpException (0x80004005): The ID 'Item1' is already used by another control.
+   at System.Web.UI.TemplateParser.ProcessError(String message)
+   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   at System.Web.UI.Page.ApplyMasterPage()
+   at System.Web.UI.Page.PerformPreInit()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\753aed3e\58c6e919\App_Web_default.aspx.cdcab7d2.myac23e-.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-12-13 12:34:25,595 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 27] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 12:34:25,595 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 27] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 12:35:54,814 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 27] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 12:35:54,815 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 27] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 12:36:47,077 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 18] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 12:36:47,077 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 18] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 12:37:37,206 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 27] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:79a1d84f-570e-4333-9fec-c8d633b10e39
+2012-12-13 12:37:37,218 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 27] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:79a1d84f-570e-4333-9fec-c8d633b10e39
+2012-12-13 12:37:37,277 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 27] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:79a1d84f-570e-4333-9fec-c8d633b10e39
+2012-12-13 12:37:37,346 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 27] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:79a1d84f-570e-4333-9fec-c8d633b10e39
+2012-12-13 12:37:37,410 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 27] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:79a1d84f-570e-4333-9fec-c8d633b10e39
+2012-12-13 12:37:37,437 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 27] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:79a1d84f-570e-4333-9fec-c8d633b10e39
+2012-12-13 12:37:37,525 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 27] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:79a1d84f-570e-4333-9fec-c8d633b10e39
+2012-12-13 12:37:37,617 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 27] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:79a1d84f-570e-4333-9fec-c8d633b10e39
+2012-12-13 12:43:17,846 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 30] Couldn't find any page with nodeId=1605. This is most likely caused by the page not being published.
+2012-12-13 12:43:19,006 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 14] Couldn't find any page with nodeId=1291. This is most likely caused by the page not being published.
+2012-12-13 12:43:25,871 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 18] Couldn't find any page with nodeId=1291. This is most likely caused by the page not being published.
+2012-12-13 12:44:13,019 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 21] Error executing query select xml from cmsContentXml where nodeID = 1129
+System.ArgumentException: The query didn't return a value.
+   at umbraco.DataLayer.SqlHelper`1.ExecuteXmlReader(String commandText, P[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteXmlReader(String commandText, IParameter[] parameters)
+2012-12-13 12:44:13,036 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 21] Error executing query select xml from cmsContentXml where nodeID = 1257
+System.ArgumentException: The query didn't return a value.
+   at umbraco.DataLayer.SqlHelper`1.ExecuteXmlReader(String commandText, P[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteXmlReader(String commandText, IParameter[] parameters)
+2012-12-13 12:44:56,198 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 27] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2012-12-13 12:44:56,198 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 27] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2012-12-13 12:44:56,198 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 27] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2012-12-13 12:48:00,906 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 6] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 12:48:00,906 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 6] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 12:49:17,434 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 18] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 12:49:17,434 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 18] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 12:49:19,716 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 26] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 12:49:19,716 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 26] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 12:50:19,048 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 27] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 12:50:19,048 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 27] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 12:51:04,752 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 14] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 12:51:04,752 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 14] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 12:51:07,934 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 26] Couldn't find any page with nodeId=1227. This is most likely caused by the page not being published.
+2012-12-13 12:51:43,649 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 27] Couldn't find any page with nodeId=1227. This is most likely caused by the page not being published.
+2012-12-13 12:51:49,695 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 21] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 12:51:49,695 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 21] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 12:52:03,695 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 28] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 12:52:03,696 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 28] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 13:03:13,540 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 28] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 13:03:13,540 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 28] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 13:03:34,216 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 21] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 13:03:34,216 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 21] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 13:03:43,403 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 26] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 13:03:43,403 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 26] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 13:04:09,161 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 26] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 13:04:09,161 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 26] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 13:04:37,325 [9] INFO  Umbraco.Core.PluginManager - [Thread 28] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 1 (took 10ms)
+2012-12-13 13:05:24,567 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 21] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 13:05:24,567 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 21] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 13:06:56,945 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 21] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:bb6a2753-ef0e-4f17-b948-bcde8e94de52
+2012-12-13 13:06:57,031 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 21] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:bb6a2753-ef0e-4f17-b948-bcde8e94de52
+2012-12-13 13:07:09,125 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 26] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:4dff07e4-e56a-426e-a39e-a26323e20a7b
+2012-12-13 13:07:09,141 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 26] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:4dff07e4-e56a-426e-a39e-a26323e20a7b
+2012-12-13 13:07:14,855 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 28] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:4dff07e4-e56a-426e-a39e-a26323e20a7b
+2012-12-13 13:07:14,868 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 28] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:4dff07e4-e56a-426e-a39e-a26323e20a7b
+2012-12-13 13:07:14,952 [9] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 28] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:4dff07e4-e56a-426e-a39e-a26323e20a7b
+2012-12-13 13:07:56,006 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 30] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 13:07:56,006 [9] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 30] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 13:59:04,205 [9] INFO  Umbraco.Web.UmbracoApplication - [Thread 53] Application shutdown. Reason: MaxRecompilationsReached
+2012-12-13 13:59:05,876 [52] INFO  Umbraco.Core.CoreBootManager - [Thread 55] Umbraco application starting
+2012-12-13 13:59:05,917 [52] INFO  Umbraco.Core.PluginManager - [Thread 55] Determining hash of code files on disk
+2012-12-13 13:59:05,926 [52] INFO  Umbraco.Core.PluginManager - [Thread 55] Hash determined (took 7ms)
+2012-12-13 13:59:07,874 [52] INFO  Umbraco.Core.PluginManager - [Thread 55] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 5 (took 1936ms)
+2012-12-13 13:59:07,885 [52] INFO  Umbraco.Core.PluginManager - [Thread 55] Completed resolution of types of umbraco.interfaces.IDataType, found 80 (took 5ms)
+2012-12-13 13:59:07,890 [52] INFO  Umbraco.Core.PluginManager - [Thread 55] Completed resolution of types of umbraco.interfaces.IMacroGuiRendering, found 13 (took 5ms)
+2012-12-13 13:59:07,896 [52] INFO  Umbraco.Core.PluginManager - [Thread 55] Completed resolution of types of umbraco.interfaces.IPackageAction, found 18 (took 5ms)
+2012-12-13 13:59:07,900 [52] INFO  Umbraco.Core.PluginManager - [Thread 55] Completed resolution of types of umbraco.interfaces.IAction, found 35 (took 4ms)
+2012-12-13 13:59:07,907 [52] INFO  Umbraco.Core.PluginManager - [Thread 55] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
+2012-12-13 13:59:07,916 [52] INFO  Umbraco.Core.PluginManager - [Thread 55] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2012-12-13 13:59:08,049 [52] INFO  Umbraco.Core.PluginManager - [Thread 55] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2012-12-13 13:59:08,053 [52] INFO  Umbraco.Core.PluginManager - [Thread 55] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2012-12-13 13:59:08,066 [52] INFO  Umbraco.Core.PluginManager - [Thread 55] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 15 (took 6ms)
+2012-12-13 13:59:08,221 [52] INFO  Umbraco.Core.PluginManager - [Thread 55] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2012-12-13 13:59:08,263 [52] INFO  Umbraco.Core.PluginManager - [Thread 55] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 5ms)
+2012-12-13 13:59:08,328 [52] INFO  Umbraco.Core.CoreBootManager - [Thread 55] Umbraco application startup complete (took 2443ms)
+2012-12-13 13:59:09,887 [52] INFO  Umbraco.Core.PluginManager - [Thread 53] Completed resolution of types of umbraco.XsltExtensionAttribute, found 2 (took 14ms)
+2012-12-13 13:59:09,917 [52] INFO  Umbraco.Core.PluginManager - [Thread 53] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 3 (took 4ms)
+2012-12-13 13:59:10,105 [52] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 53] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 13:59:10,105 [52] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 53] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 13:59:10,204 [52] INFO  Umbraco.Core.PluginManager - [Thread 53] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 15 (took 5ms)
+2012-12-13 14:00:05,630 [52] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of umbraco.interfaces.ITree, found 39 (took 4ms)
+2012-12-13 14:00:17,387 [52] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 37] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 14:00:17,387 [52] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 37] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 14:00:21,838 [52] INFO  Umbraco.Core.PluginManager - [Thread 45] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 8ms)
+2012-12-13 14:00:22,590 [52] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of umbraco.interfaces.IAction, found 35 (took 0ms)
+2012-12-13 14:00:23,506 [52] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 53] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 14:00:23,506 [52] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 53] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 14:05:45,788 [52] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 33] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 14:05:45,788 [52] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 33] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 15:03:16,901 [52] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 105] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 15:03:16,901 [52] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 105] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 15:03:23,410 [52] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 109] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 15:03:23,410 [52] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 109] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 15:20:55,952 [52] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 95] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 15:20:55,952 [52] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 95] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 15:25:52,649 [52] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 108] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 15:25:52,649 [52] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 108] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 15:33:56,088 [52] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 91] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 15:33:56,088 [52] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 91] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 15:50:43,402 [52] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 66] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 15:50:43,402 [52] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 66] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 15:51:17,980 [52] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 66] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 15:51:17,981 [52] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 66] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 15:51:42,779 [52] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 66] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 15:51:42,779 [52] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 66] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 15:52:04,141 [52] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 94] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 15:52:04,141 [52] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 94] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 15:52:12,456 [52] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 93] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 15:52:12,457 [52] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 93] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 15:52:22,231 [52] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 66] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 15:52:22,231 [52] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 66] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 15:53:18,570 [52] INFO  Umbraco.Web.UmbracoApplication - [Thread 106] Application shutdown. Reason: MaxRecompilationsReached
+2012-12-13 15:53:22,941 [89] INFO  Umbraco.Core.CoreBootManager - [Thread 100] Umbraco application starting
+2012-12-13 15:53:22,972 [89] INFO  Umbraco.Core.PluginManager - [Thread 100] Determining hash of code files on disk
+2012-12-13 15:53:22,980 [89] INFO  Umbraco.Core.PluginManager - [Thread 100] Hash determined (took 7ms)
+2012-12-13 15:53:23,184 [89] INFO  Umbraco.Core.PluginManager - [Thread 100] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 5 (took 190ms)
+2012-12-13 15:53:23,195 [89] INFO  Umbraco.Core.PluginManager - [Thread 100] Completed resolution of types of umbraco.interfaces.IDataType, found 80 (took 6ms)
+2012-12-13 15:53:23,200 [89] INFO  Umbraco.Core.PluginManager - [Thread 100] Completed resolution of types of umbraco.interfaces.IMacroGuiRendering, found 13 (took 4ms)
+2012-12-13 15:53:23,205 [89] INFO  Umbraco.Core.PluginManager - [Thread 100] Completed resolution of types of umbraco.interfaces.IPackageAction, found 18 (took 4ms)
+2012-12-13 15:53:23,212 [89] INFO  Umbraco.Core.PluginManager - [Thread 100] Completed resolution of types of umbraco.interfaces.IAction, found 35 (took 6ms)
+2012-12-13 15:53:23,218 [89] INFO  Umbraco.Core.PluginManager - [Thread 100] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2012-12-13 15:53:23,226 [89] INFO  Umbraco.Core.PluginManager - [Thread 100] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2012-12-13 15:53:23,302 [89] INFO  Umbraco.Core.PluginManager - [Thread 100] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2012-12-13 15:53:23,307 [89] INFO  Umbraco.Core.PluginManager - [Thread 100] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2012-12-13 15:53:23,318 [89] INFO  Umbraco.Core.PluginManager - [Thread 100] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 15 (took 4ms)
+2012-12-13 15:53:23,341 [89] INFO  Umbraco.Core.PluginManager - [Thread 100] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2012-12-13 15:53:23,366 [89] INFO  Umbraco.Core.PluginManager - [Thread 100] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 5ms)
+2012-12-13 15:53:23,518 [89] INFO  Umbraco.Core.CoreBootManager - [Thread 100] Umbraco application startup complete (took 567ms)
+2012-12-13 15:53:24,871 [89] INFO  Umbraco.Core.PluginManager - [Thread 114] Completed resolution of types of umbraco.XsltExtensionAttribute, found 2 (took 14ms)
+2012-12-13 15:53:24,899 [89] INFO  Umbraco.Core.PluginManager - [Thread 114] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 3 (took 4ms)
+2012-12-13 15:53:25,001 [89] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 114] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 15:53:25,001 [89] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 114] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 15:53:25,094 [89] INFO  Umbraco.Core.PluginManager - [Thread 114] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 15 (took 6ms)
+2012-12-13 15:53:39,164 [89] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 94] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 15:53:39,164 [89] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 94] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 15:54:09,243 [89] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 94] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 15:54:09,243 [89] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 94] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 15:54:57,932 [89] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 66] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 15:54:57,932 [89] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 66] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 15:55:12,453 [89] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 66] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 15:55:12,453 [89] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 66] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 15:55:44,135 [89] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 94] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 15:55:44,135 [89] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 94] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 16:01:04,647 [89] INFO  Umbraco.Core.PluginManager - [Thread 104] Completed resolution of types of umbraco.interfaces.ITree, found 39 (took 4ms)
+2012-12-13 16:02:00,660 [89] INFO  Umbraco.Core.PluginManager - [Thread 103] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 4ms)
+2012-12-13 16:02:01,260 [89] INFO  Umbraco.Core.PluginManager - [Thread 103] Completed resolution of types of umbraco.interfaces.IAction, found 35 (took 0ms)
+2012-12-13 16:07:22,192 [89] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 110] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2012-12-13 16:07:22,192 [89] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 110] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2012-12-13 16:07:22,192 [89] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 110] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2012-12-13 16:11:42,507 [89] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 96] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 16:11:42,508 [89] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 96] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 16:12:59,192 [89] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 84] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 16:12:59,192 [89] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 84] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 16:15:34,466 [89] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 91] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 16:15:34,466 [89] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 91] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 16:16:03,453 [89] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 93] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 16:16:03,454 [89] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 93] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 16:16:13,677 [89] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 84] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 16:16:13,677 [89] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 84] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 16:19:32,840 [89] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 98] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 16:19:32,840 [89] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 98] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 16:23:35,631 [89] INFO  Umbraco.Web.UmbracoApplication - [Thread 54] Application shutdown. Reason: MaxRecompilationsReached
+2012-12-13 16:23:37,455 [97] INFO  Umbraco.Core.CoreBootManager - [Thread 92] Umbraco application starting
+2012-12-13 16:23:37,495 [97] INFO  Umbraco.Core.PluginManager - [Thread 92] Determining hash of code files on disk
+2012-12-13 16:23:37,504 [97] INFO  Umbraco.Core.PluginManager - [Thread 92] Hash determined (took 7ms)
+2012-12-13 16:23:37,958 [97] INFO  Umbraco.Core.PluginManager - [Thread 92] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 5 (took 440ms)
+2012-12-13 16:23:37,969 [97] INFO  Umbraco.Core.PluginManager - [Thread 92] Completed resolution of types of umbraco.interfaces.IDataType, found 80 (took 6ms)
+2012-12-13 16:23:37,976 [97] INFO  Umbraco.Core.PluginManager - [Thread 92] Completed resolution of types of umbraco.interfaces.IMacroGuiRendering, found 13 (took 6ms)
+2012-12-13 16:23:37,984 [97] INFO  Umbraco.Core.PluginManager - [Thread 92] Completed resolution of types of umbraco.interfaces.IPackageAction, found 18 (took 7ms)
+2012-12-13 16:23:37,992 [97] INFO  Umbraco.Core.PluginManager - [Thread 92] Completed resolution of types of umbraco.interfaces.IAction, found 35 (took 7ms)
+2012-12-13 16:23:37,997 [97] INFO  Umbraco.Core.PluginManager - [Thread 92] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2012-12-13 16:23:38,008 [97] INFO  Umbraco.Core.PluginManager - [Thread 92] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+2012-12-13 16:23:38,090 [97] INFO  Umbraco.Core.PluginManager - [Thread 92] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2012-12-13 16:23:38,095 [97] INFO  Umbraco.Core.PluginManager - [Thread 92] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2012-12-13 16:23:38,107 [97] INFO  Umbraco.Core.PluginManager - [Thread 92] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 15 (took 4ms)
+2012-12-13 16:23:38,255 [97] INFO  Umbraco.Core.PluginManager - [Thread 92] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2012-12-13 16:23:38,281 [97] INFO  Umbraco.Core.PluginManager - [Thread 92] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 5ms)
+2012-12-13 16:23:38,324 [97] INFO  Umbraco.Core.CoreBootManager - [Thread 92] Umbraco application startup complete (took 858ms)
+2012-12-13 16:23:38,823 [97] INFO  Umbraco.Core.PluginManager - [Thread 88] Completed resolution of types of umbraco.interfaces.ITree, found 39 (took 4ms)
+2012-12-13 16:23:46,049 [97] INFO  Umbraco.Core.PluginManager - [Thread 54] Completed resolution of types of umbraco.XsltExtensionAttribute, found 2 (took 13ms)
+2012-12-13 16:23:46,088 [97] INFO  Umbraco.Core.PluginManager - [Thread 54] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 3 (took 4ms)
+2012-12-13 16:23:47,752 [97] INFO  Umbraco.Core.PluginManager - [Thread 54] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 15 (took 5ms)
+2012-12-13 16:24:45,322 [97] INFO  Umbraco.Core.PluginManager - [Thread 96] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 5ms)
+2012-12-13 16:24:45,399 [97] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 96] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:a6a420f3-401e-4720-ba05-460deac7e255
+2012-12-13 16:24:45,446 [97] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 96] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:a6a420f3-401e-4720-ba05-460deac7e255
+2012-12-13 16:24:46,273 [97] INFO  Umbraco.Core.PluginManager - [Thread 96] Completed resolution of types of umbraco.interfaces.IAction, found 35 (took 0ms)
+2012-12-13 16:24:50,229 [97] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 96] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:a6a420f3-401e-4720-ba05-460deac7e255
+2012-12-13 16:24:50,267 [97] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 96] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:a6a420f3-401e-4720-ba05-460deac7e255
+2012-12-13 16:24:50,688 [97] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 96] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:a6a420f3-401e-4720-ba05-460deac7e255
+2012-12-13 16:26:07,222 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 111] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 16:26:07,222 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 111] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 16:27:48,174 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 106] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 16:27:48,174 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 106] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 16:27:56,629 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 106] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 16:27:56,630 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 106] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 16:28:37,585 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 33] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 16:28:37,586 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 33] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 16:28:54,955 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 96] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 16:28:54,956 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 96] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 16:30:21,557 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 91] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 16:30:21,557 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 91] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 16:30:30,226 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 112] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 16:30:30,226 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 112] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 16:30:58,348 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 91] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 16:30:58,348 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 91] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 16:34:46,311 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 55] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 16:34:46,311 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 55] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 16:37:23,469 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 98] Couldn't find any page with nodeId=1227. This is most likely caused by the page not being published.
+2012-12-13 16:37:29,183 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 98] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 16:37:29,183 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 98] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 16:41:06,346 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 106] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 16:41:06,346 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 106] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 16:45:44,714 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 66] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 16:45:44,715 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 66] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 16:53:52,581 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 95] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 16:53:52,582 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 95] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 16:59:45,318 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 95] Couldn't find any page with nodeId=1227. This is most likely caused by the page not being published.
+2012-12-13 16:59:47,790 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 95] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 16:59:47,791 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 95] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 17:00:26,353 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 33] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 17:00:26,354 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 33] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 17:03:34,917 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 105] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 17:03:34,918 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 105] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 17:03:45,519 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 106] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 17:03:45,519 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 106] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 17:06:07,147 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 90] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 17:06:07,147 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 90] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 17:06:10,416 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 106] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 17:06:10,416 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 106] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 17:08:04,201 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 107] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 17:08:04,204 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 107] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 17:13:23,550 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 86] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 17:13:23,550 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 86] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 17:14:01,732 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 101] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 17:14:01,732 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 101] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 17:14:08,764 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 66] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 17:14:08,764 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 66] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 17:14:40,057 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 83] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 17:14:40,057 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 83] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 17:15:50,666 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 82] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 17:15:50,666 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 82] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 17:15:53,598 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 82] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 17:15:53,599 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 82] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 17:16:10,713 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 104] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 17:16:10,713 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 104] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 17:16:21,050 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 83] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 17:16:21,050 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 83] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 17:16:41,748 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 83] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 17:16:41,748 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 83] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 17:17:05,278 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 94] Couldn't find any page with nodeId=1152. This is most likely caused by the page not being published.
+2012-12-13 17:17:05,278 [97] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 94] Couldn't find any page with nodeId=1074. This is most likely caused by the page not being published.
+2012-12-13 17:46:16,586 [97] INFO  Umbraco.Web.UmbracoApplication - [Thread 64] Application shutdown. Reason: HostingEnvironment

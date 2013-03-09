@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+  <info>
+    <package>
+      <name>[UMP] Vimeo Provider</name>
+      <version>1.0</version>
+      <license url="http://www.opensource.org/licenses/mit-license.php">MIT license</license>
+      <url>http://our.umbraco.org/projects/backoffice-extensions/universal-media-picker</url>
+      <requirements>
+        <major>4</major>
+        <minor>5</minor>
+        <patch>0</patch>
+      </requirements>
+    </package>
+    <author>
+      <name>Matt Brailsford</name>
+      <website>blog.mattbrailsford.com</website>
+    </author>
+    <readme><![CDATA[Installs the Vimeo Provider for the Universal Media Picker.
+Once installed, create a new data type, and choose "UniversalMediaPicker" from the Render Control field, and select Vimeo from the provider dropdown to setup your Vimeo media picker.
+NB: You MUST install the Universal Media Picker package at http://our.umbraco.org/projects/backoffice-extensions/universal-media-picker before installing this package.]]></readme>
+  </info>
+  
+  <DocumentTypes />
+  <Templates />
+  <Stylesheets />
+  <Macros>
+  	<macro>
+      <name>[UMP] Vimeo  Video</name>
+      <alias>umpVimeoVideo</alias>
+      <scriptType>
+      </scriptType>
+      <scriptAssembly>
+      </scriptAssembly>
+      <xslt>[UMP]VimeoVideo.xslt</xslt>
+      <useInEditor>False</useInEditor>
+      <refreshRate>0</refreshRate>
+      <scriptingFile>
+      </scriptingFile>
+      <properties>
+        <property name="Field" alias="field" show="False" propertyType="text" />
+      </properties>
+    </macro>
+  </Macros>
+  <DictionaryItems />
+  <Languages />
+  <DataTypes />
+  
+  <Actions>
+    <Action runat="install" alias="addXsltExtension" assembly="TheOutfield.UmbExt.UniversalMediaPicker.Providers.Vimeo" type="TheOutfield.UmbExt.UniversalMediaPicker.Providers.Vimeo.VimeoXsltExtension" extensionAlias="vimeo" />
+  </Actions>
+  
+  <control />
+  
+  <files><file><guid>4ef7eb72-9049-427a-b1f7-e0e9ababb4cf.dll</guid><orgPath>/bin</orgPath><orgName>TheOutfield.UmbExt.UniversalMediaPicker.Providers.Vimeo.dll</orgName></file><file><guid>6c7bba58-3d97-455b-8bd3-0c726508df5c.png</guid><orgPath>/umbraco/images/umbraco</orgPath><orgName>vimeoMedia.png</orgName></file><file><guid>4192dec6-59dd-4913-80ee-34b8da7400a9.xslt</guid><orgPath>/xslt</orgPath><orgName>[UMP]VimeoVideo.xslt</orgName></file></files>
+  
+</umbPackage>
